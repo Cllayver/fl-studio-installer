@@ -1,0 +1,14 @@
+# See https://github.com/github/linguist
+
+*.svg text
+
+public/** linguist-vendored
+*.md linguist-documentation
+*.woff2 binary
+*.ico binary
+
+public/*.html linguist-vendored
+*.png binary
+*.jpeg binary
+*.map linguist-generated
+src/**/*.ts linguist-detectable
